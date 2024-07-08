@@ -3,9 +3,9 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_MAIN] = LAYOUT_wrapper( 
     ________________MAIN_L1________________,                                ________________MAIN_R1________________,
-    KC_A, KC_S, KC_D, KC_F, KC_G,                                                 KC_H, KC_J, KC_K, KC_L, KC_SCLN, 
+    KC_A, KC_S, KC_D, KC_F, KC_G,                                                 KC_H, KC_J, KC_K, KC_L, KC_COLN,
     ________________MAIN_L3________________,  KC_LALT,           MO(_ACC), ________________MAIN_R3________________,
-    KC_LGUI, NXTPRV, MO(_SYM), LT(_MISC, KC_TAB), KC_LSFT, KC_LCTL, KC_LCTL, KC_LSFT, KC_SPC, MO(_NUM), KC_MPLY, KC_LGUI
+    KC_LGUI, MO(_MISC), MO(_SYM), KC_TAB, KC_LSFT, KC_LCTL, KC_LCTL, KC_LSFT, KC_SPC, MO(_NUM), KC_MPLY, KC_LGUI
   ),
 
   [_GAMING] = LAYOUT_wrapper(
